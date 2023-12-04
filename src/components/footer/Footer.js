@@ -2,9 +2,11 @@ function Footer() {
     return (
         <div className="bg-dark text-light" >
             <div className="my-auto p-2">
-            <h4 className="text-center text-danger my-auto fw-bolder">
-                MBA
-            </h4>
+            <h6 className="text-center text-danger my-auto">
+            
+        © Copyright 2023 Built with ♡ by Lawanu Borthakur
+    
+            </h6>
             </div>
             
         </div>

@@ -15,13 +15,14 @@ const Navbar = (props) => {
                 <div className="row text-center">
                     <div className="col-lg-2 col-sm-12">
                         <Link to="/" className='text-decoration-none'>
-                        <div className="display-6 text-danger py-1">MBA</div>
+                        <div className="h5 text-danger my-3 py-1 fw-bolder">CINEMEASE
+</div>
                         </Link>
                        
                     </div>
-                    <div className="col-lg-8 col-sm-8 py-2 ">
+                    <div className="col-lg-8 col-sm-8 ">
                     </div>
-                    <div className="col-lg-2 p-2 col-sm-4 ">
+                    <div className="col-lg-2 col-sm-4  my-3 ">
                         {
                             !localStorage.getItem('token') ? (
                                 <CButton type="submit" color="danger" className='px-3' onClick={()=>{window.location.href='/login'}} >
